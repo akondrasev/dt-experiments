@@ -1,0 +1,28 @@
+.container {
+	width : calc(100% - 200px);
+	border : 2px #008cba solid;
+	margin : 0 auto;
+}
+
+table.display {
+	table-layout: fixed;
+	margin : 0;
+	width: 100%;
+}
+
+div.table-container {
+	border : 1px solid #2b2b2b;
+}
+
+table.dataTable thead th {
+	overflow      : hidden;
+	text-overflow : ellipsis;
+	white-space   : nowrap;
+}
+
+table.dataTable tbody th,
+table.dataTable tbody td {
+	white-space: nowrap;
+	overflow : hidden;
+	text-overflow: ellipsis;
+}
