@@ -12,8 +12,8 @@ $("table").dataTable({
     },
     fixedColumns: false,
     colReorder  : false,
-    autoWidth   : false,
-    scrollX     : 150,
+    autoWidth   : true,
+    scrollX     : "100%",
     scrollY     : "150px",
     scrollCollapse: true,
     select      : {

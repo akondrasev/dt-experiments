@@ -15378,13 +15378,13 @@ return jQuery;
 			// need to be modified.
 			var total = 0;
 			for ( i=0 ; i<visibleColumns.length ; i++ ) {
-				var cell = $(headerCells[i]);
+				var cell = $(">div", headerCells[i]);
 				var border = cell.outerWidth() - cell.width();
 	
 				// Use getBounding... where possible (not IE8-) because it can give
 				// sub-pixel accuracy, which we then want to round up!
 				var bounding = browser.bBounding ?
-					Math.ceil( headerCells[i].getBoundingClientRect().width ) :
+					Math.ceil( cell[0].getBoundingClientRect().width ) :
 					cell.outerWidth();
 	
 				// Total is tracked to remove any sub-pixel errors as the outerWidth

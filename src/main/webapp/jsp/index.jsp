@@ -6,7 +6,10 @@
 
 
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/DataTables/datatables.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/DataTables/DataTables-1.10.11/css/dataTables.bootstrap.css"/>
+
     <script type="text/javascript" src="${pageContext.request.contextPath}/DataTables/datatables.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/DataTables/DataTables-1.10.11/js/dataTables.bootstrap.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/DataTables/dataTables.colResize.js"></script>
     <script type="text/javascript"
             src="${pageContext.request.contextPath}/DataTables/jquery.dataTables.yadcf.js"></script>
