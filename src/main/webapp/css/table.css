@@ -7,7 +7,7 @@
 table.display {
 	table-layout: fixed;
 	margin : 0;
-	width: 100%;
+	width: auto;
 }
 
 div.table-container {
