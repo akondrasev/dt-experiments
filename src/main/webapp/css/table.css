@@ -4,9 +4,10 @@
 	margin : 0 auto;
 }
 
-table.display {
+table.dataTable {
 	table-layout: fixed;
 	margin : 0;
+	width: auto;
 }
 
 div.table-container {
@@ -17,6 +18,9 @@ table.dataTable thead th {
 	overflow      : hidden;
 	text-overflow : ellipsis;
 	white-space   : nowrap;
+
+	padding : 0 15px;
+	min-width : 30px;
 }
 
 table.dataTable tbody th,
