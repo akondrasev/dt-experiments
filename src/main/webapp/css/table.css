@@ -19,7 +19,7 @@ table.dataTable thead th {
 	text-overflow : ellipsis;
 	white-space   : nowrap;
 
-	padding : 0 15px;
+	padding : 5px 8px;
 	min-width : 30px;
 }
 
